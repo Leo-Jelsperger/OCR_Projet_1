@@ -94,11 +94,11 @@ h2 {
 }
 
 .search-section form {
+  max-width: 377px;
   display: flex;
 }
 
 .search-container {
-  max-width: 377px;
   display: flex;
 }
 
@@ -151,7 +151,7 @@ h2 {
 
 .search-section h2 {
   font-size: 18px;
-  font-size: 700;
+  font-weight: 700;
   margin-block: auto;
 }
 
@@ -220,6 +220,7 @@ h2 {
   border-radius: 20px;
   padding: 5px 5px 5px 5px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  height: 100%;
 }
 
 .card img {
@@ -570,12 +571,8 @@ footer {
     padding-inline: 20px;
   }
 
-  form {
-    width: 100%;
-  }
-
   .search-container {
-    width: auto;
+    width: 100%;
   }
 
   .search-filters {
@@ -585,6 +582,7 @@ footer {
   .text {
     width: 100%;
     min-width: 180px;
+    max-width: none;
   }
 
   .large-btn {
