@@ -35,13 +35,13 @@
             src="images/logo/Booki.png"
             alt="Logo Booki" />
           <ul>
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="#">Activités</a></li>
+            <li><a href="#hebergements">Hébergements</a></li>
+            <li><a href="#activites">Activités</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section class="search-form">
+        <section class="search-section">
           <div class="title">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
@@ -62,10 +62,17 @@
             </div>
             <input
               type="button"
-              name="btn"
-              id="btn"
-              class="btn"
+              name="large-btn"
+              id="large-btn"
+              class="large-btn"
               value="Rechercher" />
+            <button
+              name="small-btn"
+              id="small-btn"
+              class="small-btn"
+              value="ALED">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
           </form>
           <div class="search-filters">
             <h2>Filtres</h2>
@@ -78,11 +85,15 @@
             </div>
           </div>
           <div class="search-info">
-            <i class="fa-solid fa-info"></i>
+            <div class="info-logo-container">
+              <i class="fa-solid fa-info"></i>
+            </div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
         </section>
-        <div class="hebergements-and-populaires">
+        <div
+          class="hebergements-and-populaires"
+          id="hebergements">
           <section class="hebergements">
             <h2>Hébergements à Marseille</h2>
             <div class="hebergements-cards">
@@ -285,7 +296,7 @@
                 </article>
               </a>
             </div>
-            <button>Afficher plus</button>
+            <button class="afficher-plus">Afficher plus</button>
           </section>
           <section class="populaires">
             <div class="populaires-title">
@@ -399,7 +410,9 @@
             </div>
           </section>
         </div>
-        <section class="activities">
+        <section
+          class="activities"
+          id="activites">
           <h2>Activités à Marseille</h2>
           <div class="activities-list">
             <a
