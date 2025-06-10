@@ -34,6 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 35px;
+  margin-bottom: 35px;
 }
 
 nav {
@@ -55,6 +56,7 @@ nav ul {
 
 nav li {
   padding: 16px 0 0 0;
+  border-top: 2px solid transparent;
 }
 
 nav li:hover {
@@ -427,7 +429,7 @@ h2 {
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  height: 100%;
+  margin-block: auto;
 }
 
 /* Footer */
