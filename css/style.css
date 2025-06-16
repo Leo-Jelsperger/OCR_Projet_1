@@ -148,7 +148,6 @@ h2 {
 .search-filters {
   display: flex;
   gap: 14.5px;
-  cursor: pointer;
 }
 
 .search-section h2 {
@@ -557,6 +556,11 @@ footer {
     padding-bottom: 15px;
   }
 
+  .search-section form {
+    max-width: none;
+    width: 100%;
+  }
+
   .search-section {
     padding-inline: 20px;
   }
@@ -572,7 +576,6 @@ footer {
   .text {
     width: 100%;
     min-width: 180px;
-    max-width: none;
   }
 
   .large-btn {
